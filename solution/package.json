@@ -1,0 +1,17 @@
+{
+  "name": "contract-advance-report",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Отчёт по договорам: аванс, выплачено, остаток на дату",
+  "scripts": {
+    "start": "tsx report.ts",
+    "report": "tsx report.ts --date 2026-11-10",
+    "report:csv": "tsx report.ts --date 2026-11-10 --csv report.csv"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
